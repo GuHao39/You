@@ -1,0 +1,577 @@
+// 导航开始
+.navbar{
+    margin-bottom: 0px !important;
+}
+@media screen and (min-width:992px){
+	nav{
+        opacity: 0.9;
+        padding: 15px 0 0 0 ;
+        border: 0 !important;
+        background: white !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        ul li{
+            padding:15px 32px;
+        }
+        .navbar-nav > li > a{
+            font-size: 16px;
+            padding: 0;    
+        }
+        .navbar-nav>li:first-child>a{
+            color: skyblue;
+        }
+        .collapse .navbar-nav>li>a:hover{
+            color: skyblue;
+        }
+        .line{
+            margin-top: 15px;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .navbar-header img{
+        margin-left: 10px !important;
+    }
+	.navbar-fixed-top{
+		position:static !important;
+	}
+}
+// 导航结束
+.lines{
+    width: 100%;
+    height: 1px;
+    border: 2px solid #0ba1e4;
+}
+// 轮播图开始
+.carousel{
+    .carousel-indicators{
+        bottom: 5%;
+    }
+}
+@media screen and (min-width:992px){
+	.carousel{
+		margin-top: 70px;
+	}
+}
+// 轮播图结束
+
+// 客户的鼓励开始
+.our-example-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.our-example-popover {
+    height: 190px;
+    padding-bottom: 0px;
+}
+.popover {
+    height: 160px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid #34a263;
+    box-shadow: none;
+    z-index: 10;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0px;
+}
+.popover.top>.arrow {
+    border-top-color: #34a263;
+}
+.popover-title-touxiang {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -26px;
+    margin: 0;
+    left: 0;
+    text-align: center;
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+}
+.popover-content{
+    margin: 9% 0 0;
+    .popover-content-text{
+        font-size: 12px;
+    }
+    .popover-content-tag {
+        position: absolute;
+        font-size: 12px;
+        bottom: 12px;
+        .popover-content-span {
+            float: left;
+            background-color: #aaa;
+            color: #fff;
+        }
+        .position-address {
+            float: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            .position-icon {
+                background-image: url(../images/position-icon.svg);
+                background-repeat: no-repeat;
+                background-size: 10px 10px;
+                width: 10px;
+                height: 10px;
+                float: left;
+                margin-top: 3px;
+                margin-right: 4px;
+            }
+           span {
+                color: #aaa;
+            }
+        }
+    }
+}
+.glly-icon {
+    background-image: url(../images/yhgl-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+}
+.ac-figure-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+// 客户的鼓励结束
+// 最新资讯开始
+.our-news-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .media-left a {
+        width: 140px;
+        height: 110px;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    .media-body {
+        padding-top: 5px;
+        padding-bottom: 5px;
+         a{
+            color: #337ab7;
+            text-decoration: none;
+            .media-heading {
+                width: 309px;
+                color: #0ba1e4;
+                height: 19px;
+                margin-top: 0;
+                margin-bottom: 5px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+        .dynamic-li{
+            color: #999;
+            padding: 2px 0;
+            font-size: 12px;
+        }
+        p {
+            color: #919191;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            word-wrap: break-word;
+            line-height: 1.5em;
+            height: 3em;
+            overflow: hidden;
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+        .dynamic-li a{
+            float: right;
+            font-weight: 400;
+            color: #999;
+            margin-right: 10px;
+        }
+    }
+}
+.our-news-more {
+    text-align: center;
+    h2{
+        font-weight: 300;
+    }
+}
+.media:first-child {
+    margin-top: 0;
+}
+.media-left,.media-right,.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+// 最新资讯结束
+// 我们的客户开始
+.our-client {
+    background-color: #e1e1e1;
+    .center-block{
+        margin: 20px auto;
+        border: 1px solid #c1c1c1;
+        filter: grayscale(100%);
+        transition: all ease 0.5s;
+    }
+    .center-block:hover{
+        transition: all ease 0.5s;
+        filter: grayscale(0);
+        border: 1px solid #0ba1e4;
+        box-shadow: 0px 0px 10px #0ba1e4;
+    }
+}
+// 我们的客户结束
+// 咨询开始
+.contact-banner{
+    position: relative;
+    overflow: hidden;
+    background: -webkit-linear-gradient(top,#0076d1,#5db8ff);
+    .container{
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        color: white;
+    }
+}
+.contact-banner-box h2 {
+    display: block;
+    max-width: 10em;
+    margin: 0px auto;
+    line-height: 2em;
+    border-bottom: 2px solid #fff;
+    color: #f5f5f5;
+}
+.contact-banner-box .btn {
+    color: white;
+    border:1px solid white;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.contact-banner-box .btn:hover{
+    background: white;
+    color: #0ba1e4;
+    border: 1px solid white;
+}
+// 咨询结束
+// 页脚开始
+#footer {
+    padding: 0;
+    background-color: #363636;
+    .footer-item {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 1em;
+        border-left: 2px solid #c1c1c1;
+        overflow: hidden;
+        .footer-list {
+            h4{
+                color: #f5f5f5;
+            }
+            ul {
+                margin: 25px 0 0 0;
+                padding: 0;
+                list-style: none;
+                li{
+                   a{
+                    color: white;
+                    line-height: 2.5em;
+                   }
+                }
+            }
+        }
+    }
+    .footer-wechat {
+        margin: 0 auto;
+        img {
+            margin-right: 0;
+        }
+        p {
+            text-align: center;
+            color: #f5f5f5;
+            line-height: 1.5em;
+            margin: 0;
+        }
+    }
+}
+.footer-item-last {
+    border-right: 2px solid #c1c1c1;
+    .footer-contact h2 {
+        display: block;
+        color: #ffffff;
+        margin: 0;
+            line-height: 52px;
+        font-size: 24px !important;
+        img {
+            width: 40px;
+            height: 40px;
+            margin-top: -6px;
+            margin-right: 10px;
+        }
+    }
+}
+// 页脚下
+#copyright {
+    background-color: #666;
+    @media (min-width: 768px){
+        .col-sm-12 {
+            width: 100%;
+            p {
+                text-align: center;
+                margin: 10px;
+                line-height: 40px;
+                color: #fafafa;
+                a{
+                    color: #fafafa;
+                }
+            }
+        }
+    }
+}
+// 页脚结束
+// 返回顶部开始
+#clan-slider {
+    position: fixed;
+    bottom: 30%;
+    right: .1%;
+    z-index: 1000;
+    ul{   
+        margin: 0;
+        padding: 0;
+        margin-top: -2px;
+        list-style: none;
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+            margin-top: 2px;
+            position: relative;
+            background-color: #f5f5f5;
+            a {
+                display: block;
+                overflow: hidden;
+                width: 48px;
+                height: 48px;
+                border: 1px solid #0ba1e4;
+                background: url(../images/clan-slider.png) no-repeat;
+            }
+            .clan-slider-tips {
+                position: absolute;
+                top: 0px;
+                right: 48px;
+                display: none;
+                height: 48px;
+                padding-left: 10px;
+                padding-right: 2px;
+                white-space: nowrap;
+                border: 1px solid #0ba1e4;
+                background-color: #0ba1e4;
+                text-align: center;
+                line-height: 48px;
+                font-size: 18px;
+                color: #fff;
+            }
+            .clan-slider-tips-wechat {
+                display: none;
+                position: absolute;
+                background-color: #0ba1e4;
+                padding: 1px;
+                bottom: 0;
+                right: 50px;
+                img {
+                    width: 196px;
+                    height: 196px;
+                }
+            }
+            #slider-chat {
+                background-position: 0 -92px;
+            }
+            #slider-qq {
+                background-position: 0 -138px;
+            }
+            #slider-phone {
+                background-position: 0 -184px;
+            }
+            #slider-wechat {
+                background-position: 0 -230px;
+            }
+            #slider-goTop {
+                background-position: 0 0;
+            }
+        }
+    }
+}
+// 小屏幕下的返回顶部
+@media (max-width: 767px){
+    #clan-slider ul li a {
+        position: fixed;
+        right: 0;
+        bottom: 59px;
+        background-color: rgba(255,255,255,0.9) !important;
+        border-color: transparent !important;
+        border-radius: 50% !important;
+    }
+    #clan-slider #slider-goTop {
+        background-position: -92px 0 !important;
+    }
+}
+#clan-slider ul li:hover #slider-goTop{
+    background-position: 0 0 !important;
+}
+#clan-slider ul li:hover .clan-slider-tips-wechat{
+    display: block;
+}
+#clan-slider ul li:hover .clan-slider-tips{
+    display: block;
+}
+// 返回顶部结束
+// 手机端底部开始
+#mob-bottom {
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    bottom: 0;
+    border-top: 2px solid #0ba1e4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .mob-bottom-item a {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        color: #616161;
+        text-align: center;
+        line-height: 1.5em;
+        font-size: 12px;
+    }
+}
+// 手机端底部结束
+// 留言板开始
+.liuyan{
+    z-index: 999;
+    width: 240px;
+    height: 410px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #ededed;
+    .pleace{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 35px;
+        background-color: #0ba1e4;
+        span{
+            float: right;
+            line-height: 35px;
+            font-size: 14px;
+            color: white;
+            &:first-of-type{
+                float: left;
+                margin-left: 12px;
+            }
+            &:last-of-type{
+                background: url(../images/nodeMin.png);
+                width: 34px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    .phone{
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        border-bottom: 1px solid #d5d5d5;
+        p{
+            line-height: 18px;
+            margin: 0;
+            padding-left: 9px;
+            font-size: 14px;
+            color:#666666;
+            &:last-of-type{
+                font-size: 12px;
+                color: #999999;
+            }
+        }
+        padding: 12px 0;
+    }
+    #form{
+        text-align: center;
+       #content{
+        width: 212px;
+        height: 79px;
+        margin: 12px auto 7px;
+        padding: 0 4px;
+        resize: none;
+        overflow: hidden;
+        background-color: #fff;
+       } 
+       .party{
+           border: 1px solid #d5d5d5;
+           display: inline-block;
+           height: 32px;
+           width: 212px;
+           margin: 0 0 4px 0;
+           background-color: white;
+           overflow: hidden;
+            .input-icon{
+                float: left;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                vertical-align: top;
+            }
+            .party-input{
+                float: left;
+                height: 30px;
+                border: none;
+            }
+            &:nth-of-type(1){
+                .input-icon{
+                    background: #fff url(../images/user.png) no-repeat 9px center !important;
+                }
+            }
+            &:nth-of-type(2){
+                .input-icon{
+                    background: #fff url(../images/nodephone.png) no-repeat 9px center !important;
+                }
+            }
+            &:nth-of-type(3){
+                .input-icon{
+                background: #fff url(../images/nodemail.png) no-repeat 9px center;
+            }
+        }
+            &:nth-of-type(4){
+                .input-icon{
+                background: #fff url(../images/nodelocation.png) no-repeat 9px center;
+            }}
+        }
+        a{
+            display:block;
+            margin-left: 15px;
+            height: 35px;
+            width: 90px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            cursor:pointer;
+            background-color: #00aef3;
+            text-decoration: none;
+        }
+    }
+}
+.change{
+    background: url(../images/nodeMax.png) !important;
+}
+.smaller{
+    height: 35px !important;
+}
+// 留言板结束

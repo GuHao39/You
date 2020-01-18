@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>qianzhengjiaji</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet/less" href="less/qianzhengjiaji.less">
+    <link rel="stylesheet/less" href="less/comon.less">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/less.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+     <!-- 导航开始 -->
+     <nav class="navbar navbar-default navbar-fixed-top noficed">
+        <div class="container">
+             <div class="navbar-header">
+                 <img src="images/logo.png" alt="Brand">
+                 <button class="navbar-toggle btn-group" data-toggle="collapse" data-target="#myNav">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+             </div>
+             <div class="collapse navbar-collapse" id="myNav">
+                 <ul class="nav navbar-nav navbar-right">
+                     <li class="avtive"><a href="javascript:;">首页</a></li>
+                     <li><a href="javascript:;">签证指南</a></li>
+                     <li><a href="javascript:;">签证加急</a></li>
+                     <li><a href="javascript:;">签证服务</a></li>
+                     <li><a href="javascript:;">签证资讯</a></li>
+                     <li><a href="javascript:;">资料下载</a></li>
+                 </ul>
+             </div>
+         </div>
+         <div class="lines"></div>
+     </nav> 
+     <!-- 导航结束 -->
+    <!-- 轮播图开始 -->
+    <div class="carousel slide" id="myCarousel">
+     <!--定义指示点-->
+         <ul class="carousel-indicators">
+             <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+             <li data-slide-to="1" data-target="#myCarousel"></li>
+         </ul>
+         <div class="carousel-inner">
+             <div class="item active">
+                 <img src="images/banner1.jpg" class="img-responsive"/>
+             </div>
+             <div class="item">
+                 <img src="images/banner2.jpg" class="img-responsive"/>
+             </div>
+         </div>
+     </div>
+     <!-- 轮播图结束 -->
+     <!-- 优势开始 -->
+     <div class="urgent-row urgent-odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <h2>2-3天进馆面签</h2>
+                    <p class="blue-line"></p>
+                    <p>无论官方排期是一个月还是两个月, 找我们加急, 最快第二天 ,第三天即可进馆面谈.</p>
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/sellpoint1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="urgent-row urgent-even">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="images/sellpoint2.png">
+                </div>
+                <div class="col-xs-8">
+                    <h2>多年渠道 保证成功</h2>
+                    <p class="blue-line"></p>
+                    <p>2011年开通加急服务至今, 多年从未间断, 您只需要任意指定二至三个有效工作日备选, 百分百加急成功.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="urgent-row urgent-odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <h2>先加急 后付费</h2>
+                    <p class="blue-line"></p>
+                    <p>先安排加急, 加急成功后可官方查询, 核实各项信息真实准确之后再支付服务费用, 安全放心.</p>
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/sellpoint3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="urgent-row urgent-even">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="images/sellpoint4.png">
+                </div>
+                <div class="col-xs-8">
+                    <h2>专人审核 双重保障</h2>
+                    <p class="blue-line"></p>
+                    <p>在材料提交加急之前, 专人核对关键信息, 确保各项信息(如护照号, 姓名, DS160确认码等)准确无误, 为顺利进馆面签双重保险.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="urgent-row urgent-odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <h2>五大领区 所有签证类型</h2>
+                    <p class="blue-line"></p>
+                    <p>北京, 上海, 广州, 沈阳, 成都五大领区均可办理加急. B1/B2商务旅游, F1留学, J1交流访问, C1过境等都可办理加急.</p>
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/sellpoint5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="urgent-row urgent-even">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="images/sellpoint6.png">
+                </div>
+                <div class="col-xs-8">
+                    <h2>简单材料 无需邮寄</h2>
+                    <p class="blue-line"></p>
+                    <p>仅需提供电子版本材料用于核对和申请加急, 无需邮寄任何原件, 方便快捷.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- 优势结束 -->
+     <!-- 流程开始 -->
+     <div class="urgent-row urgent-liucheng">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>签证流程: 填写DS160表&gt;&gt;&gt;缴纳签证费&gt;&gt;&gt;预约面谈时间&gt;&gt;&gt;进馆面谈&gt;&gt;&gt;取护照</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- 流程结束 -->
+     <!-- 加急流程开始 -->
+     <div class="urgent-row urgent-liuchengs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>加急流程</h1>
+                    <p class="blue-line"></p>
+                    <p>还未填表缴费的申请人请直接咨询客服</p>
+                    <ol>
+                        <li>提供护照首页扫描件和DS160确认页</li>
+                        <li>与客服预订期望面谈的日期</li>
+                        <li>我方上报加急, 申请人准备面谈材料</li>
+                        <li>加急成功, 回传预约确认单</li>
+                        <li>申请人核实无误后付款</li>
+                    </ol>
+                    <a class="btn btn-lg btn-primary web-chat">在线咨询</a>
+                    <a class="btn btn-lg btn-default" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=54350970&amp;site=qq&amp;menu=yes">QQ咨询</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- 加急流程结束 -->
+     <!-- 客户的鼓励开始 -->
+    <div class="main our-example">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 main-title">
+                    <h2 class="h1">客户的鼓励</h2>
+                    <p class="line row-line"></p>
+                    <h2>
+                        <small>帮助您解决实际问题，顺利、及时地获得签证，是我们存在的根本价值。</small>
+                    </h2>
+                </div>
+                <div class="col-sm-4 our-example-box">
+                    <div class="our-example-popover">
+                        <div class="popover top">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title-touxiang">
+                                <img src="images/pingjia1.jpg">
+                            </h3>
+                            <div class="popover-content">
+                                <p class="popover-content-text">
+                                    护照丢了，定了春节行程。11号补好护照约了13号面签，这速度简直惊人，所有的旅行社都说弄不了，来不及了，肯定没戏。多亏了你们，非常感谢！</p>
+                                <div class="popover-content-tag col-xs-12">
+                                    <span class="popover-content-span">B1商务签证</span>
+                                    <div class="position-address">
+                                        <figure class="position-icon"></figure>
+                                        <span>北京领事馆</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="glly-icon ac-figure-icon"></figure>
+                </div>
+                <div class="col-sm-4 our-example-box">
+                    <div class="our-example-popover">
+                        <div class="popover top">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title-touxiang">
+                                <img src="images/pingjia2.jpg">
+                            </h3>
+                            <div class="popover-content">
+                                <p class="popover-content-text">
+                                    因为我情况很特殊也很难办，白本加多次拒签。感谢你们为我做详细的分析与方案，这次签证终于过了！本来都做好心理准备再拒我就彻底放弃的。谢谢你们！</p>
+                                <div class="popover-content-tag col-xs-12">
+                                    <span class="popover-content-span">B2旅游签证</span>
+                                    <div class="position-address">
+                                        <figure class="position-icon"></figure>
+                                        <span>广州领事馆</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="glly-icon ac-figure-icon"></figure>
+                </div>
+                <div class="col-sm-4 our-example-box">
+                    <div class="our-example-popover">
+                        <div class="popover top">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title-touxiang">
+                                <img src="images/pingjia3.jpg">
+                            </h3>
+                            <div class="popover-content">
+                                <p class="popover-content-text">
+                                    同学推荐过来的，马上就要开学了，加上去年成绩不并理想。多亏你们帮我插队面签，分析面签问题，非常专业。现在签证已经拿到了，我会再介绍同学来。</p>
+                                <div class="popover-content-tag col-xs-12">
+                                    <span class="popover-content-span">F1留学签证</span>
+                                    <div class="position-address">
+                                        <figure class="position-icon"></figure>
+                                        <span>上海领事馆</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="glly-icon ac-figure-icon"></figure>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 客户的鼓励结束 -->
+    <!-- 最新资讯开始 -->
+    <div class="main our-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 main-title">
+                    <h2 class="h1">美国签证最新资讯</h2>
+                    <p class="line row-line"></p>
+                    <h2>
+                        <small>中岚签证帮您关注最新美国签证相关政策与新闻。</small>
+                    </h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="media our-news-item">
+                        <div class="media-left">
+                            <a class="thumbnail" href="javascript:;">
+                                <img class="media-object" src="images/20170509103625563.jpg" alt="92名中国民工被欠薪受困塞班岛 华裔中介扣钱逃匿">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="javascript:;"><h4 class="media-heading">92名中国民工被欠薪受困塞班岛 华裔中介扣钱逃匿</h4></a>
+                            <div class="dynamic-li">
+                                <span>时间：2017-05-09 </span>
+                            </div>
+                            <p>他们大部分来自东北，在去年10月份时，其所在城市的劳务中介公司找到他们，介绍了塞班岛的工作，中介给他们开出每天工作8小时日薪300元、如果加班每小时50元的待遇。民工称他们当时也没</p>
+                            <div class="dynamic-li">
+                                <a href="javascript:;">[详细]</a>
+                                <span>作者：中岚签证 <span class="hidden-xs">clantrip.com</span> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="media our-news-item">
+                        <div class="media-left">
+                            <a class="thumbnail" href="javascript:;">
+                                <img class="media-object" src="images/20170508061916221.png" alt="2017年赴美签证新规定">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="javascript:;"><h4 class="media-heading">2017年赴美签证新规定</h4></a>
+                            <div class="dynamic-li">
+                                <span>时间：2017-05-08 </span>
+                            </div>
+                            <p>美国国务院领事事务局2016年10月6日公告，自2016年11月1日开始，申请美国护照或签证，要使用没有戴眼镜的照片。</p>
+                            <div class="dynamic-li">
+                                <a href="javascript:;">[详细]</a>
+                                <span>作者：中岚签证 <span class="hidden-xs">clantrip.com</span> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="media our-news-item">
+                        <div class="media-left">
+                            <a class="thumbnail" href="javascript:;">
+                                <img class="media-object" src="images/20170508052848613.jpg" alt="美国有多少人缴纳个人所得税及其它">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="javascript:;"><h4 class="media-heading">美国有多少人缴纳个人所得税及其它</h4></a>
+                            <div class="dynamic-li">
+                                <span>时间：2017-05-08 </span>
+                            </div>
+                            <p>前几天我们有一篇博文介绍了美国个人所得税税率，不少网友提出许多有关美国个税税收的问题，这里就集中回答。由于个税牵涉到联邦所得税以及   </p>
+                            <div class="dynamic-li">
+                                <a href="javascript:;">[详细]</a>
+                                <span>作者：中岚签证 <span class="hidden-xs">clantrip.com</span> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="media our-news-item">
+                        <div class="media-left">
+                            <a class="thumbnail" href="javascript:;">
+                                <img class="media-object" src="images/20170414112021996.jpg" alt="多国签证利好频出，带火春节出境游">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="javascript:;">多国签证利好频出，带火春节出境游</h4></a>
+                            <div class="dynamic-li">
+                                <span>时间：2017-04-15 </span>
+                            </div>
+                            <p>近一两个月来，澳大利亚、马来西亚、以色列、阿联酋、塞尔维亚、泰国等国纷纷对中国公民捧出签证利好，加上春节临近，大为提振了南京市民的旅游热情。记者从旅游市场上获悉，春节期间</p>
+                            <div class="dynamic-li">
+                                <a href="javascript:;">[详细]</a>
+                                <span>作者：中岚签证 <span class="hidden-xs">clantrip.com</span> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 our-news-more">
+                    <h2>
+                        <small><a href="javascript:;">更多资讯&gt;&gt;&gt;</a></small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新资讯结束 -->
+    <!-- 我们的客户开始 -->
+    <div class="main our-client">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 main-title">
+                    <h2 class="h1">我们的客户</h2>
+                    <p class="line row-line"></p>
+                    <h2>
+                        <small>他们与中岚建立了合作关系</small>
+                    </h2>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client1.png" alt="中国重汽">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client2.png" alt="中国中冶">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client3.png" alt="宝钢集团">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client4.png" alt="中国水电">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client5.png" alt="河北建工">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client6.png" alt="格力集团">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client7.png" alt="山东山推">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client8.png" alt="福田汽车">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client9.png" alt="联想集团">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client10.png" alt="冀中能源">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client11.png" alt="腾讯集团">
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-2 our-client-item">
+                    <div class="our-client-logo">
+                        <img class="img-responsive center-block" src="images/client12.png" alt="中国石油">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的客户结束 -->
+    <!-- 咨询开始 -->
+    <div class="contact-banner">
+        <canvas id="waves" class="waves " width="2658" height="257" style="width: 2658.6px;height: 257px;"></canvas>
+        <div class="container col-xs-12">
+            <div class="row">
+                <div class="col-sm-12 contact-banner-box">
+                    <h2 class="h1">更多疑问 全面解答</h2>
+                    <h4>资深美签专家在线为您解答所有疑惑</h4>
+                    <a href="javascript:;" class="btn btn-outline-inverse btn-lg web-chat">免费咨询</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 咨询结束 -->
+    <!-- 页脚开始 -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2 footer-item">
+                    <div class="footer-list">
+                        <h4>常用工具</h4>
+                        <ul>
+                            <li><a href="javascript:;">电码查询</a></li>
+                            <li><a href="javascript:;">护照追踪</a></li>
+                            <li><a href="javascript:;">资料下载</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 footer-item">
+                    <div class="footer-list">
+                        <h4>快捷裢接</h4>
+                        <ul>
+                            <li><a href="javascript:;">签证资讯</a></li>
+                            <li><a href="javascript:;">签证指南</a></li>
+                            <li><a href="javascript:;">常见问题</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2 footer-item">
+                    <div class="footer-list">
+                        <h4>关于我们</h4>
+                        <ul>
+                            <li><a href="javascript:;">关于中岚</a></li>
+                            <li><a href="javascript:;">服务协议</a></li>
+                            <li><a href="javascript:;">收藏本站</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer-item">
+                    <div class="footer-wechat">
+                        <img class="img-responsive" src="images/wechat.png">
+                        <p class="">微信号:clanus</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 footer-item footer-item-last">
+                    <div class="footer-contact">
+                        <h2><img src="images/pc-footer-phone.png">010-64648731</h2>
+                        <h2><img src="images/pc-footer-qq.png">54350970</h2>
+                        <h2><img src="images/pc-footer-mob.png">18810888729</h2>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚下 -->
+    <div id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Copyright © 2006-2019 clantrip.com All Rights Reversed. 中岚签证 <a href="javascript:;">京ICP备16015317号</a></p>
+    
+                    <div style="width:300px;margin:0 auto; padding:20px 0; text-align: center;">
+                        <a href="javascript:;" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                            <img src="images/ghs.png" style="float:left;">
+                            <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#fafafa;">京公网安备 11010102002687号</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚结束 -->
+    <!-- 返回顶部开始 -->
+    <div id="clan-slider">
+        <ul>
+            <li class="hidden-xs">
+                <a id="slider-chat" class="web-chat" href="javascript:;"></a>
+                <div class="clan-slider-tips">
+                    在线咨询
+                </div>
+            </li>
+            <li class="hidden-xs">
+                <a  href="javascript:;" id="slider-qq"></a>
+                <div class="clan-slider-tips">
+                    QQ咨询
+                </div>
+            </li>
+            <li class="hidden-xs">
+                <a id="slider-phone" href="javascript:void(0);"></a>
+                <div class="clan-slider-tips">
+                    010-64648731
+                </div>
+            </li>
+            <li class="hidden-xs">
+                <a id="slider-wechat" href="javascript:void(0);"></a>
+                <div class="clan-slider-tips-wechat">
+                    <img src="images/wechat.png">
+                </div>
+            </li>
+            <li id="goBack"><a id="slider-goTop" href="javascript:;" style="display: block;"></a></li>
+        </ul>
+    </div>
+    <!-- 返回顶部结束 -->
+    <!-- 手机端底部开始 -->
+    <div id="mob-bottom" class="visible-xs-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3 mob-bottom-item">
+                    <a href="JavaScript:;">
+                        <img class="img-responsive center-block" src="images/mob-footer-phone.png">
+                        <span>电话咨询</span>
+                    </a>
+                </div>
+                <div class="col-xs-3 mob-bottom-item">
+                    <a href="JavaScript:;">
+                        <img class="img-responsive center-block" src="images/mob-footer-mob.png">
+                        <span>紧急电话</span>
+                    </a>
+                </div>
+                <div class="col-xs-3 mob-bottom-item">
+                    <a href="JavaScript:;">
+                        <img class="img-responsive center-block web-chat" src="images/mob-footer-chat.png">
+                        <span>在线咨询</span>
+                    </a>
+                </div>
+                <div class="col-xs-3 mob-bottom-item">
+                    <a href="JavaScript:;">
+                        <img class="img-responsive center-block" src="images/mob-footer-msm.png">
+                        <span>短信咨询</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 手机端底部结束 -->
+    <!-- 留言板开始 -->
+    <div class="liuyan">
+        <div class="pleace">
+            <span>请您留言</span>
+            <span></span>
+        </div>
+        <ins class="phone">
+            <p>中岚签证</p>
+            <p>010-64648731</p>
+        </ins>
+        <form id="form">
+            <textarea id="content" placeholder="请在此输入留言内容，我们会尽快与您联系。（必填）"></textarea>
+            <div class="party">
+                <div class="input-icon"></div>
+                <input type="text" class="party-input" placeholder="姓名">
+            </div>
+            <div class="party">
+                <div class="input-icon"></div>
+                <input type="text" class="party-input" placeholder="电话（必填）">
+            </div>
+            <div class="party">
+                <div class="input-icon"></div>
+                <input type="text" class="party-input" placeholder="邮箱">
+            </div>
+            <div class="party">
+                <div class="input-icon"></div>
+                <input type="text" class="party-input" placeholder="地址">
+            </div>
+            <a href="javascript:;">发送</a>
+        </form> 
+    </div>
+    <!-- 留言板结束 -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/comon.js"></script>
+</body>
+</html>
